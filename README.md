@@ -1,5 +1,6 @@
 
 ### Setup
+Download and Install NodeJS >= 18.15.0
 
 1.  Clone the repository
 
@@ -10,7 +11,7 @@
 2.  Go into repository folder
 
     ```bash
-    cd Flowise
+    cd chatbotAI
     ```
 
 3.  Install all dependencies of all modules:
