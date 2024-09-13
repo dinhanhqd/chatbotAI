@@ -1,6 +1,11 @@
 
 ### Setup
 Download and Install NodeJS >= 18.15.0
+Install PNPM
+    ```bash
+   npm i -g pnpm
+    ```
+
 
 1.  Clone the repository
 
