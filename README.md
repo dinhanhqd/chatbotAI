@@ -1,11 +1,10 @@
-
 ### Setup
+
 Download and Install NodeJS >= 18.15.0
 Install PNPM
-    ```bash
+`bash
    npm i -g pnpm
-    ```
-
+    `
 
 1.  Clone the repository
 
@@ -28,7 +27,9 @@ Install PNPM
 4.  Build all the code:
 
     ```bash
-    pnpm build
+    set NODE_OPTIONS=--max-old-space-size=4096
+    pnpm run build
+
     ```
 
     <details>
@@ -46,6 +47,4 @@ Install PNPM
     pnpm start
     ```
 
-    You can now access the app on [http://localhost:3000](http://localhost:3000)
-
-
+    run file index.html
